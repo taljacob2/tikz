@@ -2,6 +2,10 @@
 
 Example of using tikzpictures - Render tikzpictures as HTML/SVG to be able to use them in HTMLs or Markdowns.
 
+## Credits
+
+We downloaded the `tikzjax.js` and `fonts.css` files from the `output` directory of https://github.com/benrbray/tikzjax
+
 ## Usage
 
 To avoid browser security errors like `Not allowed to load local resource` or `Timeout: Did not receive an init message from worker`, you must serve the files through a local web server rather than opening `index.html` directly as a file.
